@@ -1,0 +1,47 @@
+{
+  "modules": [
+    "title", // Display the system title (e.g., username@hostname)
+    "separator", // Add an underline separator (like info underline in neofetch)
+    {
+      "type": "os", // Display OS information
+      "key": "OS"
+    },
+    {
+      "type": "terminal", // Display terminal name
+      "key": "Terminal"
+    },
+    {
+      "type": "packages", // Display package count
+      "key": "Packages"
+    },
+    {
+      "type": "gpu", // Display GPU information
+      "key": "GPU"
+    },
+    {
+      "type": "cpu", // Display CPU information
+      "key": "CPU"
+    },
+    "shell", // Display shell information
+    {
+      "type": "memory", // Display memory usage
+      "key": "Memory",
+      "format": "{used} / {total} MiB"
+    },
+    "battery", // Display battery percentage and status
+    {
+      "type": "cpuUsage", // Display CPU usage percentage
+      "key": "CPU Usage"
+    },
+    {
+      "type": "terminalfont", // Display terminal font
+      "key": "Terminal Font",
+      "format": "{name}"
+    },
+    "break", // Add a break line
+    "colors", // Display color blocks at the bottom
+    "break",
+    "break",
+    "break"
+  ]
+}
